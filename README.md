@@ -14,3 +14,10 @@ Go to https://127.0.0.1:13579/ and accept self-signed certificate.
 Go to http://127.0.0.1:8059/vnc.html and connect to VNC.
 
 You can now use official PKI websites. When necessary, switch to VNC tab and do file selection, etc.
+
+## Useful rules for uBlock Origin
+
+```
+idp.egov.kz wss://127.0.0.1:13579 websocket allow
+nca.pki.gov.kz wss://127.0.0.1:13579 websocket allow
+```
