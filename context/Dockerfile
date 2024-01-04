@@ -30,7 +30,7 @@ RUN set -ex; \
 RUN set -ex; \
   mkdir -p /home/runner/.config/NCALayer/bundles; \
   cd /home/runner/.config/NCALayer/bundles; \
-  curl -JOL --capath /home/runner/certs https://cabinet.salyk.kz/knp/ncalayer/sono_knp_ncalayer_module-1.1.0.jar ; \
+  curl -JOL https://cabinet.kgd.gov.kz/knp/ncalayer/sono_knp_ncalayer_module-1.2.0.jar ; \
   true
 
 CMD socat tcp-listen:13580,fork,reuseaddr tcp:127.0.0.1:13579 & \
